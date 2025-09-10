@@ -13,3 +13,14 @@ The system checks both **spatial** and **temporal** conflicts, returning clear/c
 ---
 
 ## 📂 Repository Structure
+
+uav-deconfliction-2025/
+├── src/
+│ ├── deconflict.py # Main code (models, conflict detection, visualization)
+│ └── run_scenarios.py # Driver script to auto-run scenarios & save animations
+├── tests/ # Unit tests
+├── scenarios/ # JSON mission files (conflict, no conflict, etc.)
+├── docs/ # Documentation
+│ ├── README.md
+│ └── REFLECTION.md
+└── video/ # Generated animations (MP4)
