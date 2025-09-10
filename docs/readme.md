@@ -24,3 +24,12 @@ uav-deconfliction-2025/
 │ ├── README.md
 │ └── REFLECTION.md
 └── video/ # Generated animations (MP4)
+
+
+---
+
+## ⚙️ Installation
+Clone the repo and install dependencies:
+
+```bash
+pip install numpy matplotlib pytest
