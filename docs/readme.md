@@ -33,3 +33,18 @@ Clone the repo and install dependencies:
 
 ```bash
 pip install numpy matplotlib pytest
+
+for conflict scenario 
+python src/deconflict.py scenarios/primary.json scenarios/traffic_conflict.json
+
+for non conflict scenario
+python src/deconflict.py scenarios/primary.json scenarios/traffic_safe.json
+
+✅ Running Tests
+pytest -q
+
+All unit tests cover:
+
+Conflict detection
+No conflict scenario
+Near-miss (just outside buffer)
